@@ -1,0 +1,16 @@
+[package]
+authors = ["Lastryo <Lastryo@live.com>"]
+license = "MIT"
+name = "symlink_gui"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+eframe = {version = "*", default-features = false, features = ["default_fonts", "egui_glium"]}
+egui = "0.17"
+native-dialog = "0.6.3"
+im-native-dialog = "0.3.0"
+walkdir = "2"
+image = "0.23.14"
