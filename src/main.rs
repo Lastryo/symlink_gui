@@ -7,7 +7,7 @@ fn main() {
     let app = 
     symlink_gui::Settings::new(
         symlink_gui::Symlink::new());
-    let icon = image::open("shoot.png")
+    let icon = image::open("icon.png")
         .expect("Failed to open icon path")
         .to_rgba8();
     let size = &(icon.width(), icon.height());

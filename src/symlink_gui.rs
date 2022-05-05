@@ -131,7 +131,7 @@ impl App for Settings {
     }
 
     fn name(&self) -> &str {
-        "hecs_gui"
+        "symlink_gui"
     }
 }
 
